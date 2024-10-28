@@ -26,7 +26,7 @@ if (navigator.mediaDevices.getUserMedia) {
 
     const options = {
       audioBitsPerSecond: 96000,
-      mimeType: "audio/ogg; codecs=opus",
+      mimeType: "audio/webm;codecs=opus",
     };
 
     const mediaRecorder = new MediaRecorder(stream, options);
