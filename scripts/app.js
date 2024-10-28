@@ -4,7 +4,7 @@ const stop = document.querySelector(".stop");
 const soundClips = document.querySelector(".sound-clips");
 const canvas = document.querySelector(".visualizer");
 const mainSection = document.querySelector(".main-controls");
-const token = document.location.hash.substring(1);
+const token = window.location.hash.substring(1);
 
 console.log(token)
 
